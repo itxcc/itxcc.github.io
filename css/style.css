@@ -461,8 +461,7 @@ h6 {
   .header .logo-wrapper {
     float: left; }
     .header .logo-wrapper .logo {
-      font-size: 48px;
-      font-family: "Chancery", cursive, LiSu, sans-serif; }
+      font-size: 48px; }
   @media screen and (max-width: 800px) {
     .header .logo-wrapper {
       display: none; } }
