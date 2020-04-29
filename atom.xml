@@ -32,47 +32,9 @@
       <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="h5" scheme="http://itxcc.com/tags/h5/"/>
-    
       <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-  </entry>
-  
-  <entry>
-    <title>18年总结</title>
-    <link href="http://itxcc.com/2018/12/31/18%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
-    <id>http://itxcc.com/2018/12/31/18年总结/</id>
-    <published>2018-12-31T00:50:20.000Z</published>
-    <updated>2019-11-21T12:27:35.018Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;18年总结&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="总结" scheme="http://itxcc.com/categories/%E6%80%BB%E7%BB%93/"/>
-    
-    
-      <category term="总结" scheme="http://itxcc.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记录一次svn修改端口出现的问题</title>
-    <link href="http://itxcc.com/2018/10/30/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1svn%E4%BF%AE%E6%94%B9%E7%AB%AF%E5%8F%A3%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://itxcc.com/2018/10/30/记录一次svn修改端口出现的问题/</id>
-    <published>2018-10-30T06:40:11.000Z</published>
-    <updated>2019-08-08T15:38:51.730Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;记录一次svn修改端口出现的问题&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="svn" scheme="http://itxcc.com/tags/svn/"/>
+      <category term="h5" scheme="http://itxcc.com/tags/h5/"/>
     
   </entry>
   
@@ -93,111 +55,6 @@
     
     
       <category term="git" scheme="http://itxcc.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>chrome浏览器下video隐藏下载按钮</title>
-    <link href="http://itxcc.com/2018/10/11/chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8Bvideo%E9%9A%90%E8%97%8F%E4%B8%8B%E8%BD%BD%E6%8C%89%E9%92%AE/"/>
-    <id>http://itxcc.com/2018/10/11/chrome浏览器下video隐藏下载按钮/</id>
-    <published>2018-10-11T04:00:52.000Z</published>
-    <updated>2018-10-16T04:27:16.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;chrome浏览器下video隐藏下载按钮&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="chrome" scheme="http://itxcc.com/tags/chrome/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图库网站</title>
-    <link href="http://itxcc.com/2018/09/23/%E5%9B%BE%E5%BA%93%E7%BD%91%E7%AB%99/"/>
-    <id>http://itxcc.com/2018/09/23/图库网站/</id>
-    <published>2018-09-23T04:11:40.000Z</published>
-    <updated>2018-10-15T02:26:30.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;图库网站&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://itxcc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="http://itxcc.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>九种浏览器的缓存</title>
-    <link href="http://itxcc.com/2018/09/19/%E4%B9%9D%E7%A7%8D%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%BC%93%E5%AD%98/"/>
-    <id>http://itxcc.com/2018/09/19/九种浏览器的缓存/</id>
-    <published>2018-09-19T12:26:56.000Z</published>
-    <updated>2018-09-19T12:26:56.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;九种浏览器的缓存&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="浏览器" scheme="http://itxcc.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>手机端页面在项目中遇到的一些问题及解决办法</title>
-    <link href="http://itxcc.com/2018/09/18/%E6%89%8B%E6%9C%BA%E7%AB%AF%E9%A1%B5%E9%9D%A2%E5%9C%A8%E9%A1%B9%E7%9B%AE%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>http://itxcc.com/2018/09/18/手机端页面在项目中遇到的一些问题及解决办法/</id>
-    <published>2018-09-18T05:21:15.000Z</published>
-    <updated>2018-09-18T09:51:18.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;手机端页面在项目中遇到的一些问题及解决办法&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="移动端" scheme="http://itxcc.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>那时少年</title>
-    <link href="http://itxcc.com/2018/09/14/%E9%82%A3%E6%97%B6%E5%B0%91%E5%B9%B4/"/>
-    <id>http://itxcc.com/2018/09/14/那时少年/</id>
-    <published>2018-09-14T00:50:20.000Z</published>
-    <updated>2019-08-08T15:26:19.199Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;只记得那时侯她很笨呐。&lt;/p&gt;
-&lt;p&gt;她会迷路，一旦离开我1000码的距离就会没有方向感，所以我学会了卡莉斯塔签订契约，她就不会走丢了。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://itxcc.com/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="http://itxcc.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -261,55 +118,11 @@
       <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
       <category term="js" scheme="http://itxcc.com/tags/js/"/>
+    
+      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
       <category term="jq" scheme="http://itxcc.com/tags/jq/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>元素居中的三种方法</title>
-    <link href="http://itxcc.com/2018/06/04/%E5%85%83%E7%B4%A0%E5%B1%85%E4%B8%AD%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95/"/>
-    <id>http://itxcc.com/2018/06/04/元素居中的三种方法/</id>
-    <published>2018-06-04T00:50:20.000Z</published>
-    <updated>2018-09-14T08:58:46.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;元素居中的三种方法&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="css" scheme="http://itxcc.com/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Javascript--setTimeout与setInterval区别</title>
-    <link href="http://itxcc.com/2018/01/25/Javascript--setTimeout%E4%B8%8EsetInterval%E5%8C%BA%E5%88%AB/"/>
-    <id>http://itxcc.com/2018/01/25/Javascript--setTimeout与setInterval区别/</id>
-    <published>2018-01-25T03:20:20.000Z</published>
-    <updated>2018-09-19T12:24:58.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Javascript–setTimeout与setInterval区别&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="前端" scheme="http://itxcc.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="前端" scheme="http://itxcc.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="js" scheme="http://itxcc.com/tags/js/"/>
     
   </entry>
   
