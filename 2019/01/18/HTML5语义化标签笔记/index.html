@@ -1,148 +1,155 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-  <head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<html lang=zh>
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="HTML5语义化标签笔记">
+<meta name="keywords" content="前端,h5">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML5语义化标签笔记">
+<meta property="og:url" content="http://itxcc.com/2019/01/18/HTML5语义化标签笔记/index.html">
+<meta property="og:site_name" content="itxcc">
+<meta property="og:description" content="HTML5语义化标签笔记">
+<meta property="og:locale" content="zh-cn">
+<meta property="og:updated_time" content="2019-08-08T15:20:12.544Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HTML5语义化标签笔记">
+<meta name="twitter:description" content="HTML5语义化标签笔记">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>HTML5语义化标签笔记</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
+</head>
 
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" href="/2018/10/21/git学习笔记/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&text=HTML5语义化标签笔记"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&is_video=false&description=HTML5语义化标签笔记"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=HTML5语义化标签笔记&body=Check out this article: http://itxcc.com/2019/01/18/HTML5语义化标签笔记/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&name=HTML5语义化标签笔记&description=&lt;p&gt;HTML5语义化标签笔记&lt;/p&gt;"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&t=HTML5语义化标签笔记"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-<meta name="theme-color" content="#f8f5ec">
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-<meta name="description" content="HTML5语义化标签笔记"><meta name="keywords" content="itxcc,itxcc博客"><link rel="alternate" href="/atom.xml" title="itxcc"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.11.0">
-<link rel="canonical" href="http://itxcc.com/2019/01/18/HTML5语义化标签笔记/">
-
-<link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="/lib/nprogress/nprogress.min.css"><script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-  </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=2.11.0">
-
-<script id="baidu_analytics">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?2658f8cf46f4c7a3c5620c583c824615";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134612250-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-134612250-1');
-</script><script id="baidu_push">
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-<script>
-  window.config = {"leancloud":{"app_id":null,"app_key":null},"toc":true,"fancybox":true,"pjax":true,"latex":true};
-</script>
-
-    <title>HTML5语义化标签笔记 - itxcc</title>
-  </head>
-
-  <body><div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/." class="logo">itxcc</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list"><a href="/">
-        <li class="mobile-menu-item">首页
-          </li>
-      </a><a href="/archives/">
-        <li class="mobile-menu-item">归档
-          </li>
-      </a><a href="/tags/">
-        <li class="mobile-menu-item">标签
-          </li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">分类
-          </li>
-      </a><a href="/about/">
-        <li class="mobile-menu-item">关于
-          </li>
-      </a></ul>
-</nav>
-<div class="container" id="mobile-panel">
-      <header id="header" class="header"><div class="logo-wrapper">
-  <a href="/." class="logo">itxcc</a>
-</div>
-
-<nav class="site-navbar"><ul id="menu" class="menu"><li class="menu-item">
-          <a class="menu-item-link" href="/">
-            首页
-            </a>
-        </li>
-      <li class="menu-item">
-          <a class="menu-item-link" href="/archives/">
-            归档
-            </a>
-        </li>
-      <li class="menu-item">
-          <a class="menu-item-link" href="/tags/">
-            标签
-            </a>
-        </li>
-      <li class="menu-item">
-          <a class="menu-item-link" href="/categories/">
-            分类
-            </a>
-        </li>
-      <li class="menu-item">
-          <a class="menu-item-link" href="/about/">
-            关于
-            </a>
-        </li>
-      </ul></nav>
-</header>
-
-      <main id="main" class="main">
-        <div class="content-wrapper">
-          <div id="content" class="content"><article class="post">
-    <header class="post-header">
-      <h1 class="post-title">HTML5语义化标签笔记
-        </h1>
-
-      <div class="post-meta">
-        <span class="post-time">
-          2019-01-18
-        </span><span class="post-category">
-            <a href="/categories/前端/">前端</a>
-            </span>
-        </div>
-    </header>
-
-    <div class="post-toc" id="post-toc">
-    <h2 class="post-toc-title">文章目录</h2>
-    <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么会有h5-语义化标签"><span class="toc-text">为什么会有h5 语义化标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签的概念"><span class="toc-text">语义标签的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签有什么用？"><span class="toc-text">语义标签有什么用？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常用语义标签有哪些？"><span class="toc-text">常用语义标签有哪些？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意"><span class="toc-text">注意</span></a></li></ol>
     </div>
-  </div><div class="post-content"><p>HTML5语义化标签笔记</p>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么会有h5-语义化标签"><span class="toc-number">1.</span> <span class="toc-text">为什么会有h5 语义化标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签的概念"><span class="toc-number">2.</span> <span class="toc-text">语义标签的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签有什么用？"><span class="toc-number">3.</span> <span class="toc-text">语义标签有什么用？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常用语义标签有哪些？"><span class="toc-number">4.</span> <span class="toc-text">常用语义标签有哪些？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意"><span class="toc-number">5.</span> <span class="toc-text">注意</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        HTML5语义化标签笔记
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">itxcc</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2019-01-18T11:52:56.000Z" itemprop="datePublished">2019-01-18</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/前端/">前端</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/h5/">h5</a>, <a class="tag-link" href="/tags/前端/">前端</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>HTML5语义化标签笔记</p>
 <a id="more"></a>
 <h3 id="为什么会有h5-语义化标签"><a href="#为什么会有h5-语义化标签" class="headerlink" title="为什么会有h5 语义化标签"></a>为什么会有h5 语义化标签</h3><p>在HTML5出现之前，我们一般采用DIV+CSS布局页面。但是这样的布局方式不仅使我们的文档结构不够清晰，而且不利于搜索引擎爬虫对我们页面的爬取。为了解决上述缺点，HTML5新增了很多新的语义化标签。</p>
 <h3 id="语义标签的概念"><a href="#语义标签的概念" class="headerlink" title="语义标签的概念"></a>语义标签的概念</h3><p><strong>维基百科</strong></p>
@@ -236,74 +243,122 @@
 <li>每个input标签对应的说明文本都需要使用label标签，并且通过为input设置id属性，在lable标签中设置for=someld来让说明文本和相对应的input关联起来</li>
 </ul>
 
-      </div>
-      
-      <footer class="post-footer">
-        <div class="post-tags">
-            <a href="/tags/h5/">h5</a>
-            <a href="/tags/前端/">前端</a>
-            </div>
+  </div>
+</article>
+
+
+
         
-        <nav class="post-nav"><a class="next" href="/2018/10/21/git学习笔记/">
-        <span class="next-text nav-default">git学习笔记</span>
-        <span class="prev-text nav-mobile">下一篇</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    </nav></footer>
-    </article></div><div class="comments" id="comments">
-      <div id="gitalk-container"></div>
-    </div></div>
-      </main>
+          <div id="footer-post-container">
+  <div id="footer-post">
 
-      <footer id="footer" class="footer"><div class="social-links"><a href="mailto:itxcc420@email.com" class="iconfont icon-email" title="email"></a>
-        <a href="https://github.com/itxcc" class="iconfont icon-github" title="github"></a>
-        <a href="https://instagram.com/itxcc" class="iconfont icon-instagram" title="instagram"></a>
-        <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
-    </div><div class="copyright">
-  <span class="power-by">
-    由 <a class="hexo-link" href="https://hexo.io/">Hexo</a> 强力驱动
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    主题 - 
-    <a class="theme-link" href="https://github.com/ahonn/hexo-theme-even">Even</a>
-  </span>
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </div>
 
-  <span class="copyright-year">&copy;2017 - 2020<span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">itxcc</span>
-  </span>
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么会有h5-语义化标签"><span class="toc-number">1.</span> <span class="toc-text">为什么会有h5 语义化标签</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签的概念"><span class="toc-number">2.</span> <span class="toc-text">语义标签的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语义标签有什么用？"><span class="toc-number">3.</span> <span class="toc-text">语义标签有什么用？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#常用语义标签有哪些？"><span class="toc-number">4.</span> <span class="toc-text">常用语义标签有哪些？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#注意"><span class="toc-number">5.</span> <span class="toc-text">注意</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&text=HTML5语义化标签笔记"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&is_video=false&description=HTML5语义化标签笔记"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=HTML5语义化标签笔记&body=Check out this article: http://itxcc.com/2019/01/18/HTML5语义化标签笔记/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&title=HTML5语义化标签笔记"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&name=HTML5语义化标签笔记&description=&lt;p&gt;HTML5语义化标签笔记&lt;/p&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://itxcc.com/2019/01/18/HTML5语义化标签笔记/&t=HTML5语义化标签笔记"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
 </div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2020
+    itxcc
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+        
+      </ul>
+    </nav>
+  </div>
 </footer>
 
-      <div class="back-to-top" id="back-to-top">
-        <i class="iconfont icon-up"></i>
-      </div>
-    </div><!-- gitalk.swig -->
-<link href="https://cdn.bootcss.com/gitalk/1.4.0/gitalk.min.css" rel="stylesheet">
-<script src="https://cdn.bootcss.com/gitalk/1.4.0/gitalk.min.js"></script>
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-<script type="text/javascript">
-  var gitalk = new Gitalk({
-    clientID: '67c42b158fc440841136',
-    clientSecret: '7e429583b7fae71983a535234ed9c38700f117ff',
-    repo: 'itxcc.github.io',
-    owner: 'itxcc',
-    admin: ['itxcc'],
-    id: md5(location.pathname),   // ISSUE：location.href 限制50个字符 (应该是Issue 内容存数据库的标识， 具体在页面上无感)
-    labels: 'gitalk'.split(',').filter(l => l),  // 需要的 labels需要一个数组，否则会报错
-    perPage: 15,
-    pagerDirection: 'last',
-    createIssueManually: false,
-    distractionFreeMode: false
+    </div>
+    <!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+    <!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<!-- clipboard -->
+
+  <script src="/lib/clipboard/clipboard.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
   })
-  gitalk.render('gitalk-container')
-</script><script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="/lib/slideout/slideout.js"></script>
-  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/lib/pjax/jquery.pjax.min.js"></script>
-  <script type="text/javascript" src="/lib/nprogress/nprogress.min.js"></script>
-  <script type="text/javascript" src="/js/src/even.js?v=2.11.0"></script>
+  </script>
+
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
 </body>
 </html>
